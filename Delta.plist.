@@ -10,7 +10,7 @@
                         <key>kind</key>
                         <string>software-package</string>
                         <key>url</key>
-                        <string>https://download.mediafire.com/k9gwjsqzo2su1i8/Delta-660.649-01.ipa</string>
+                        <string>https://download.mediafire.com/k9gwjsqzo2su1i8/Delta-2.660.649-01.ipa</string> <!-- Updated URL to the new version -->
                     </dict>
                     <dict>
                         <key>kind</key>
@@ -26,7 +26,7 @@
                         <key>needs-shine</key>
                         <true/>
                         <key>url</key>
-                        <string>https://deltaios-executor.com/FullImage.png</string>
+                        <string>https://deltaios-executor.com/FullImage.png</string> <!-- Make sure this URL is valid -->
                     </dict>
                 </array>
                 <key>metadata</key>
@@ -34,7 +34,7 @@
                     <key>bundle-identifier</key>
                     <string>com.gloop.deltamobile</string>
                     <key>bundle-version</key>
-                    <string>version-edff3ebb0ca74edf</string>
+                    <string>2.660.649</string> <!-- Updated to match the new version -->
                     <key>kind</key>
                     <string>software</string>
                     <key>title</key>
