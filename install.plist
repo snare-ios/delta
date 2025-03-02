@@ -10,7 +10,7 @@
                         <key>kind</key>
                         <string>software-package</string>
                         <key>url</key>
-                        <string>https://www.mediafire.com/file/k9gwjsqzo2su1i8/Delta-660.649-01.ipa/file</string> <!-- Link to the .ipa -->
+                        <string>https://www.dropbox.com/s/wyuuxee7yjv96b8/Delta-660.649-01.ipa?dl=1</string> <!-- Updated .ipa link -->
                     </dict>
                     <dict>
                         <key>kind</key>
@@ -18,7 +18,7 @@
                         <key>needs-shine</key>
                         <true/>
                         <key>url</key>
-                        <string>https://i.imgur.com/IXDGfe8.png</string> <!-- Your app icon or display image -->
+                        <string>https://i.imgur.com/IXDGfe8.png</string> <!-- Updated logo URL -->
                     </dict>
                     <dict>
                         <key>kind</key>
@@ -32,13 +32,13 @@
                 <key>metadata</key>
                 <dict>
                     <key>bundle-identifier</key>
-                    <string>com.snarescripts.delta</string> <!-- Bundle identifier -->
+                    <string>com.snarescripts.delta</string> <!-- Bundle Identifier -->
                     <key>bundle-version</key>
-                    <string>2.660.649</string> <!-- Version number -->
+                    <string>2.660.649</string> <!-- Version -->
                     <key>kind</key>
                     <string>software</string>
                     <key>title</key>
-                    <string>Delta</string> <!-- App title -->
+                    <string>Delta</string> <!-- App Title -->
                 </dict>
             </dict>
         </array>
