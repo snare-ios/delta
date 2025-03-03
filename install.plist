@@ -10,7 +10,7 @@
                         <key>kind</key>
                         <string>software-package</string>
                         <key>url</key>
-                        <string>https://www.mediafire.com/file/vso36dr96a3kwg5/Signed.ipa/file</string> <!-- Updated .ipa link -->
+                        <string>https://www.mediafire.com/file/vso36dr96a3kwg5/Signed.ipa/file</string> <!-- Your signed .ipa file -->
                     </dict>
                     <dict>
                         <key>kind</key>
@@ -18,7 +18,7 @@
                         <key>needs-shine</key>
                         <true/>
                         <key>url</key>
-                        <string>https://i.imgur.com/IXDGfe8.png</string> <!-- Updated logo URL -->
+                        <string>https://i.imgur.com/IXDGfe8.png</string> <!-- App logo -->
                     </dict>
                     <dict>
                         <key>kind</key>
@@ -26,19 +26,19 @@
                         <key>needs-shine</key>
                         <true/>
                         <key>url</key>
-                        <string>https://i.imgur.com/IXDGfe8.png</string> <!-- Full-size image URL -->
+                        <string>https://i.imgur.com/IXDGfe8.png</string> <!-- Full-size image -->
                     </dict>
                 </array>
                 <key>metadata</key>
                 <dict>
                     <key>bundle-identifier</key>
-                    <string>com.roblox.deltaapp</string> <!-- Adjusted Bundle Identifier to fit Roblox convention -->
+                    <string>com.gloop.deltamobile</string> <!-- Your provided Bundle Identifier -->
                     <key>bundle-version</key>
-                    <string>2.660.649</string> <!-- Version -->
+                    <string>95QCD6KL36</string> <!-- Your provided App ID (or version) -->
                     <key>kind</key>
                     <string>software</string>
                     <key>title</key>
-                    <string>Roblox Delta</string> <!-- App Title reflecting Roblox -->
+                    <string>Delta</string> <!-- App Title -->
                 </dict>
             </dict>
         </array>
