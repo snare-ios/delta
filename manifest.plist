@@ -32,7 +32,7 @@
                 <key>metadata</key>
                 <dict>
                     <key>bundle-identifier</key>
-                    <string>com.gloop.deltamobile</string> <!-- Bundle identifier -->
+                    <string>com.snarescripts.delta</string> <!-- Bundle identifier -->
                     <key>bundle-version</key>
                     <string>2.660.649</string> <!-- Version number -->
                     <key>kind</key>
