@@ -18,7 +18,7 @@
                         <key>needs-shine</key>
                         <true/>
                         <key>url</key>
-                        <string>https://i.imgur.com/bY4GIAE.jpeg</string> <!-- Your app icon or display image -->
+                        <string>https://i.imgur.com/bY4GIAE.png</string> <!-- Your app icon or display image -->
                     </dict>
                     <dict>
                         <key>kind</key>
@@ -26,7 +26,7 @@
                         <key>needs-shine</key>
                         <true/>
                         <key>url</key>
-                        <string>https://i.imgur.com/bY4GIAE.jpeg</string> <!-- Full-size image URL -->
+                        <string>https://i.imgur.com/bY4GIAE.png</string> <!-- Full-size image URL -->
                     </dict>
                 </array>
                 <key>metadata</key>
