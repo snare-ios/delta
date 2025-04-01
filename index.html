@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Direct Install for Snare Delta</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            text-align: center; 
+            padding: 20px; 
+            background-color: #f5f5f5;
+            margin: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            position: relative;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .btn { 
+            display: inline-block; 
+            padding: 12px 30px; 
+            background: #007aff; 
+            color: white; 
+            text-decoration: none; 
+            border-radius: 25px;
+            font-weight: bold;
+            font-size: 18px;
+            margin: 20px 0;
+            transition: background 0.3s;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background: #0062cc;
+        }
+        .ios-icon {
+            width: 60px;
+            height: 60px;
+            margin-bottom: 20px;
+        }
+        .note {
+            color: #666;
+            font-size: 14px;
+            margin-top: 30px;
+        }
+        #success-message {
+            display: none;
+            background: #4CAF50;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        /* Confirmation Popup */
+        .popup-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 1000;
+            justify-content: center;
+            align-items: center;
+        }
+        .popup {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            width: 80%;
+            max-width: 300px;
+            text-align: center;
+        }
+        .popup-buttons {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .popup-btn {
+            padding: 8px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .popup-cancel {
+            background: #f0f0f0;
+            color: #333;
+        }
+        .popup-install {
+            background: #007aff;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://i.imgur.com/bY4GIAE.png" alt="Delta Icon" class="ios-icon">
+        <h1>Direct Install for Snare Delta</h1>
+        <p>Click the button below to install Delta on your iOS device. Made By therealreee</p>
+        <a href="#" class="btn" id="install-btn">Install Now</a>
+        
+        <div id="success-message">✓ Delta IOS Installed. Check your home screen.</div>
+        
+        <div class="note">
+            <p><strong>Important:</strong> You must use <strong>Safari</strong> browser on iOS.</p>
+            <p>After installation, go to <strong>Settings → General → VPN & Device Management</strong> to trust the developer.</p>
+        </div>
+    </div>
+
+    <!-- Custom Popup -->
+    <div class="popup-overlay" id="popup">
+        <div class="popup">
+            <p><strong>Snare Sideloading</strong> would like to install <strong>"Snare Delta"</strong></p>
+            <div class="popup-buttons">
+                <button class="popup-btn popup-cancel" id="cancel-btn">Cancel</button>
+                <button class="popup-btn popup-install" id="confirm-install-btn">Install</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const installBtn = document.getElementById('install-btn');
+        const popup = document.getElementById('popup');
+        const cancelBtn = document.getElementById('cancel-btn');
+        const confirmInstallBtn = document.getElementById('confirm-install-btn');
+
+        // Show popup when Install button is clicked
+        installBtn.addEventListener('click', function(e) {
+            e.preventDefault();
+            popup.style.display = 'flex';
+        });
+
+        // Cancel button closes popup
+        cancelBtn.addEventListener('click', function() {
+            popup.style.display = 'none';
+        });
+
+        // Install button triggers the installation
+        confirmInstallBtn.addEventListener('click', function() {
+            popup.style.display = 'none';
+            
+            // Redirect to the installation URL
+            window.location.href = 'itms-services://?action=download-manifest&url=https://snarescripts.github.io/delta/manifest.plist';
+            
+            // Show success message after a delay
+            setTimeout(function() {
+                document.getElementById('success-message').style.display = 'block';
+            }, 2000);
+        });
+    </script>
+</body>
+</html>
