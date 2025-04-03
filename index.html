@@ -21,9 +21,21 @@
             box-shadow: 0 4px 8px rgba(0,0,0,0.1);
             position: relative;
         }
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        .header-logo {
+            width: 50px;
+            height: 50px;
+            border-radius: 10px;
+        }
         h1 {
             color: #333;
-            margin-bottom: 20px;
+            margin: 0;
         }
         .btn { 
             display: inline-block; 
@@ -103,8 +115,11 @@
 </head>
 <body>
     <div class="container">
+        <div class="header">
+            <img src="https://i.imgur.com/Px9pLK0.png" alt="Snare Logo" class="header-logo">
+            <h1>Direct Install for Snare Delta</h1>
+        </div>
         <img src="https://i.imgur.com/bY4GIAE.png" alt="Delta Icon" class="ios-icon">
-        <h1>Direct Install for Snare Delta</h1>
         <p>Click the button below to install Delta on your iOS device. Made By therealreee</p>
         <a href="#" class="btn" id="install-btn">Install Now</a>
         
